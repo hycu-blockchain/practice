@@ -12,8 +12,11 @@
 | 9주 | 스마트 컨트랙트 입문 | `HelloBlockchain.sol` | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week09/HelloBlockchain.sol) |
 | 10주 | 함수와 제어 구조 | `Counter.sol` (스타터) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week10/Counter.sol) |
 | | | `CounterComplete.sol` (완성본) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week10/CounterComplete.sol) |
+| 11주 | 데이터 구조와 저장 | `ScorePad.sol` (스타터) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week11/ScorePad.sol) |
+| | | `ScorePadComplete.sol` (완성본) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week11/ScorePadComplete.sol) |
+| | | `ScorePadChallenge.sol` (도전 과제 참고 답안) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week11/ScorePadChallenge.sol) |
 
-> 11~14주차 코드는 학기 진행에 따라 추가된다. 10주차처럼 스타터(받아서 한 줄씩 추가)와 완성본(정답 대조용)을 함께 두는 주차도 있다.
+> 12~14주차 코드는 학기 진행에 따라 추가된다. 10·11주차처럼 스타터(받아서 한 줄씩 추가)와 완성본(정답 대조용)을 함께 두는 주차도 있다.
 
 링크가 동작하지 않으면, Remix에서 새 파일을 만들고 이 저장소의 코드를 복사해 붙여 넣어도 된다.
 저장소 전체를 내려받으려면:
@@ -28,9 +31,13 @@ git clone https://github.com/hycu-blockchain/practice.git
 practice/
 ├── week09/
 │   └── HelloBlockchain.sol
-└── week10/
-    ├── Counter.sol            # 스타터 (한 줄씩 추가해 완성)
-    └── CounterComplete.sol    # 완성본 (정답 대조용)
+├── week10/
+│   ├── Counter.sol            # 스타터 (한 줄씩 추가해 완성)
+│   └── CounterComplete.sol    # 완성본 (정답 대조용)
+└── week11/
+    ├── ScorePad.sol           # 스타터 (이벤트를 추가해 완성)
+    ├── ScorePadComplete.sol   # 완성본 (기본 산출물 정답 대조용)
+    └── ScorePadChallenge.sol  # 도전 과제 참고 답안 (struct · 인덱스 배열 · memory vs storage)
 ```
 
 주차마다 `weekNN/` 폴더 하나를 두고, 그 안에 해당 주차의 컨트랙트를 넣는다.
