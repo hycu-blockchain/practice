@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- 13주차 NFT 실습용 샘플 이미지 — 직접 그린 도형만으로 구성 (저작권 · 초상권 · 개인정보 없음) -->
+  <rect width="512" height="512" fill="#EAF1FF"/>
+  <rect x="56" y="56" width="400" height="400" rx="48" fill="#1C60EF"/>
+  <circle cx="256" cy="226" r="104" fill="#FFFFFF"/>
+  <polygon points="256,150 322,264 190,264" fill="#1C60EF"/>
+  <rect x="150" y="360" width="212" height="28" rx="14" fill="#FFFFFF" opacity="0.85"/>
+</svg>
