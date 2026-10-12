@@ -15,8 +15,10 @@
 | 11주 | 데이터 구조와 저장 | `ScorePad.sol` (스타터) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week11/ScorePad.sol) |
 | | | `ScorePadComplete.sol` (완성본) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week11/ScorePadComplete.sol) |
 | | | `ScorePadChallenge.sol` (도전 과제 참고 답안) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week11/ScorePadChallenge.sol) |
+| 12주 | ERC-20 토큰 만들기 | `MyToken.sol` (최소 템플릿) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week12/MyToken.sol) |
+| | | `MyTokenComplete.sol` (본인 정보로 바꾼 예) | [열기](https://remix.ethereum.org/#url=https://raw.githubusercontent.com/hycu-blockchain/practice/main/week12/MyTokenComplete.sol) |
 
-> 12~14주차 코드는 학기 진행에 따라 추가된다. 10·11주차처럼 스타터(받아서 한 줄씩 추가)와 완성본(정답 대조용)을 함께 두는 주차도 있다.
+> 13~14주차 코드는 학기 진행에 따라 추가된다. 10~12주차처럼 스타터(받아서 한 줄씩 추가)와 완성본(정답 대조용)을 함께 두는 주차도 있다.
 
 링크가 동작하지 않으면, Remix에서 새 파일을 만들고 이 저장소의 코드를 복사해 붙여 넣어도 된다.
 저장소 전체를 내려받으려면:
@@ -34,10 +36,13 @@ practice/
 ├── week10/
 │   ├── Counter.sol            # 스타터 (한 줄씩 추가해 완성)
 │   └── CounterComplete.sol    # 완성본 (정답 대조용)
-└── week11/
-    ├── ScorePad.sol           # 스타터 (이벤트를 추가해 완성)
-    ├── ScorePadComplete.sol   # 완성본 (기본 산출물 정답 대조용)
-    └── ScorePadChallenge.sol  # 도전 과제 참고 답안 (struct · 인덱스 배열 · memory vs storage)
+├── week11/
+│   ├── ScorePad.sol           # 스타터 (이벤트를 추가해 완성)
+│   ├── ScorePadComplete.sol   # 완성본 (기본 산출물 정답 대조용)
+│   └── ScorePadChallenge.sol  # 도전 과제 참고 답안 (struct · 인덱스 배열 · memory vs storage)
+└── week12/
+    ├── MyToken.sol            # ERC-20 최소 템플릿 (이름 · 심볼 · 발행량 세 곳을 바꿔 완성)
+    └── MyTokenComplete.sol    # 본인 정보로 바꾼 예 (Alice Token · ALT · 1000)
 ```
 
 주차마다 `weekNN/` 폴더 하나를 두고, 그 안에 해당 주차의 컨트랙트를 넣는다.
