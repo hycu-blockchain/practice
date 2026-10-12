@@ -3,3 +3,6 @@
 
 # Claude Code 로컬 설정
 .claude/
+
+# 환경 변수 (개인키·API 키 등 비밀값)
+.env
